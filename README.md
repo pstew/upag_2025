@@ -8,6 +8,10 @@
 
 https://github.com/pstew/upag_2025
 
+### R/RStudio download
+
+https://posit.co/download/rstudio-desktop/
+
 ### Materials
 
 - Intro
