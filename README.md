@@ -35,6 +35,7 @@
 			- Good for analyses in R. R will treat blanks as NA, which is a special value representing missing (or undefined) data. 
 			- We expect some missingness in mass spec data. 
 				- Mass spec data that does not have missingness indicates it was imputed or possibly run with TMT (which tends to have very little missingness).
+  		- Fix typo in H3.
 	- Let's separate our column annotations to make separate meta data. 
 		- Do not need to do it now, but we could also do this for row annotations since we generally have a lot of information associated with each protein/peptide in proteomics experiments.
 		- A text editor like https://www.sublimetext.com can really help speed up basic text manipulation. This could mostly be done in RStudio as well.
