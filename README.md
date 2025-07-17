@@ -12,6 +12,8 @@ https://github.com/pstew/upag_2025
 
 - Intro
 - GitHub
+  - What it is
+  - Getting files for today
 - Getting started with R: https://monashbioinformaticsplatform.github.io/r-intro/start.html
 - Set up project in a folder + new RStudio project
 	- Importance of staying organized
