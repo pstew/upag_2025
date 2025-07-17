@@ -1,3 +1,8 @@
+# UPAG Proteomics Data Analysis Workshop July 2025
+
+<img width="2048" height="2048" alt="bFWcE3" src="https://github.com/user-attachments/assets/323a00fd-deac-4529-9b5d-5f14b451f7b5" />
+
+
 - Intro
 - Getting started with R: https://monashbioinformaticsplatform.github.io/r-intro/start.html
 - Set up project in a folder + new RStudio project
