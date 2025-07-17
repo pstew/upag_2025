@@ -1,14 +1,14 @@
-# UPAG Proteomics Data Analysis Workshop July 2025
+## UPAG Proteomics Data Analysis Workshop July 2025
 
 
-## QR Code to this repository:
+### QR Code to this repository:
 <img width="256" height="256" alt="bFWcE3" src="https://github.com/user-attachments/assets/323a00fd-deac-4529-9b5d-5f14b451f7b5" />
 
-## Link to this Repository:
+### Link to this Repository:
 
 https://github.com/pstew/upag_2025
 
-## Materials
+### Materials
 
 - Intro
 - Getting started with R: https://monashbioinformaticsplatform.github.io/r-intro/start.html
