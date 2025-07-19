@@ -567,8 +567,8 @@ Assign colors by significance and direction
 
 ```{r}
 volcano_df$color = "gray"
-volcano_df$color[volcano_df$padj < 0.05 & volcano_df$log2fc > 0] = "red"
-volcano_df$color[volcano_df$padj < 0.05 & volcano_df$log2fc < 0] = "blue"
+volcano_df$color[volcano_df$padj < 0.05 & volcano_df$log2fc > 1] = "red"
+volcano_df$color[volcano_df$padj < 0.05 & volcano_df$log2fc < -1] = "blue"
 ```
 
 Get the gene symbols for the most differentially expressed proteins so we can display them in the plot
@@ -653,8 +653,8 @@ volcano_df_gg$neglog10padj = -log10(volcano_df_gg$padj)
 
 # Assign group labels for coloring
 volcano_df_gg$group = "Not significant"
-volcano_df_gg$group[volcano_df_gg$padj < 0.05 & volcano_df_gg$log2fc > 0] = "Higher in WT_TP"
-volcano_df_gg$group[volcano_df_gg$padj < 0.05 & volcano_df_gg$log2fc < 0] = "Higher in WT_baseline"
+volcano_df_gg$group[volcano_df_gg$padj < 0.05 & volcano_df_gg$log2fc > 1] = "Higher in WT_TP"
+volcano_df_gg$group[volcano_df_gg$padj < 0.05 & volcano_df_gg$log2fc < -1] = "Higher in WT_baseline"
 
 # Set factor levels for consistent legend order
 volcano_df_gg$group = factor(volcano_df_gg$group,
